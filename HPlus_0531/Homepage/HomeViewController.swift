@@ -16,11 +16,13 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        lbl_cals.text = "\( AppDelegate.calcCalorie )"
     }
     
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        lbl_cals.text = "\( AppDelegate.calcCalorie )"
+    }
 
 }
