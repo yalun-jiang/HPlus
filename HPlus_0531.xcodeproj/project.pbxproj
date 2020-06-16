@@ -24,6 +24,7 @@
 		19DDFAF5248357F6008E9544 /* HPlus_0531Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDFAF4248357F6008E9544 /* HPlus_0531Tests.swift */; };
 		19DDFB00248357F6008E9544 /* HPlus_0531UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDFAFF248357F6008E9544 /* HPlus_0531UITests.swift */; };
 		19DDFB0E248624C1008E9544 /* healthyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDFB0D248624C1008E9544 /* healthyViewCell.swift */; };
+		19E652C52498BD3600F81F3A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 19E652C42498BD3600F81F3A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		19DDFAFF248357F6008E9544 /* HPlus_0531UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPlus_0531UITests.swift; sourceTree = "<group>"; };
 		19DDFB01248357F6008E9544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DDFB0D248624C1008E9544 /* healthyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthyViewCell.swift; sourceTree = "<group>"; };
+		19E652C42498BD3600F81F3A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		19DDFAD1248357F5008E9544 = {
 			isa = PBXGroup;
 			children = (
+				19E652C42498BD3600F81F3A /* README.md */,
 				19DDFADC248357F5008E9544 /* HPlus_0531 */,
 				19DDFAF3248357F6008E9544 /* HPlus_0531Tests */,
 				19DDFAFE248357F6008E9544 /* HPlus_0531UITests */,
@@ -301,6 +304,7 @@
 			files = (
 				19DDFAEA248357F6008E9544 /* LaunchScreen.storyboard in Resources */,
 				19DDFAE7248357F6008E9544 /* Assets.xcassets in Resources */,
+				19E652C52498BD3600F81F3A /* README.md in Resources */,
 				19DDFAE5248357F5008E9544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
