@@ -17,7 +17,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        lbl_cals.text = "\( AppDelegate.calcCalorie )"
     }
     
     

@@ -88,6 +88,8 @@ class RecordViewController: UIViewController {
             cals += Int(txt_cals.text!)!
             lbl_cals.text = "\(cals)"
             
+            AppDelegate.calcCalorie = cals
+            
         }
         
         //這邊 空隔 不是數字 你原本
